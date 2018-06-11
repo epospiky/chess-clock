@@ -5,22 +5,7 @@
   </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <style rel=stylesheet type="text/css">
-   section{background:#fff; }
-   .dp img{ }
-   .watch{ -webkit-display:flex;
-                    display:flex;
-                   -webkit-justify-content:center;
-                   justify-content:center;
-                   flex-direction:column;
-                   align-items:center;
-                  
-                   
-   }
-   .watch-div{width:50%; height:auto;}
-   h2.txt{font-size:60px; color:black;
-                 font-weight:900;
-                 letter-spacing:10px;
-                 font-family: sans-serif;}
+  
   </style>
  </head>
  <body>
@@ -36,11 +21,31 @@
 
   <section id="set">
     <div class="">
-      
+      <form >
+       <div class="player">
+        <label class="pull-left" for="player1">Player 1</label>
+        <div class="player pull-right "><input type = "text" name="player1"/><br/>
+        <input type ="checkbox" />Remember Player name
+        </div>
+       </div>
+       <div class="player">
+        <label class="pull-left" for="player2">Player 2</label>
+        <div class="player pull-right "><input type = "text" name="player2"/><br/>
+        <input type ="checkbox" />Remember Player name
+        </div>
+       </div>
+      </form>
     </div>
-    <div class=""></div>
-    <div class=""></div>
-    <div class=""></div>
+    <div class="">
+     <div>
+      <img src=" " /><span>Set Timer</span>
+     </div>
+     <div>
+      <select >
+      </select>
+     </div>
+    </div>
+    <p id="ready">READY! </p>
   </section>
 
   <section id ="play"></section>

@@ -1,1 +1,17 @@
 body{}
+section{background:#fff; }
+   .dp img{ }
+   .watch{ -webkit-display:flex;
+                    display:flex;
+                   -webkit-justify-content:center;
+                   justify-content:center;
+                   flex-direction:column;
+                   align-items:center;
+                  
+                   
+   }
+   .watch-div{width:50%; height:auto;}
+   h2.txt{font-size:60px; color:black;
+                 font-weight:900;
+                 letter-spacing:10px;
+                 font-family: sans-serif;}

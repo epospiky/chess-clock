@@ -1,5 +1,5 @@
 body{}
-section{background:#fff; }
+section{background:#fff; padding:50px; }
    .dp img{ }
    .watch{ -webkit-display:flex;
                     display:flex;
@@ -15,3 +15,7 @@ section{background:#fff; }
                  font-weight:900;
                  letter-spacing:10px;
                  font-family: sans-serif;}
+.player{background:#EBDDE2; border-radius:10px; padding:20px 0px 20px 0px;}
+.set{border:1px black solid; border-radius:10px; padding:20px 0px 20px 0px; }
+.set{padding:20px 0px 20px 0px;}
+.player1-view, .player2-view{background:#C19A6B; border-radius:10px }

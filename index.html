@@ -45,45 +45,50 @@
       <img src=" " /><span>Set Timer</span>
      </div>
      <div class="select">
-      <select >
-      </select>
+      <input type="number" min="1" value="20" placeholder="minutes" color="black">
      </div>
     </div>
-    <p id="ready">READY! </p>
+    <div id="ready">
+    <p >READY!</p>
+    </div>
   </section>
 
   <section id ="play">
    <div >
     <div class="player2-view " >
-      <div class="timer" >
-      <p>Jane</p>
-      <h1>00:50:00</h1>
-      <span>Checks:5</span>
-      <span>Moves:9</span>
-     </div>
+      <h3 id="player2">Jane</h3>
+       <h1 id="timer2">00:50:00</h1>
+       <span id="move2no">Moves:9</span>
+       <span id="check2no">Checks:5</span>
      <div class="checks">
-      <button >Check</button >
-      <button >Checkmate</button>
+      <span id="check2">Check</span >
+      <span id="checkmate2" >Checkmate</span>
+      
      </div>
+
+     
+      
+     
+     
     </div>
-    <div class=" " >
+    <div class="options" >
      <ul>
-      <li >1</li>
-      <li >1</li>
-      <li >1</li>
-      <li >1</li>
+      <li ><img src="http://res.cloudinary.com/epospiky/image/upload/v1529073991/settings.png" class="img-responsive" ></li>
+      <li ><img src="http://res.cloudinary.com/epospiky/image/upload/v1529073991/close.png" class="img-responsive"></li>
+      <li ><img src="http://res.cloudinary.com/epospiky/image/upload/v1529074201/pause.png" class="img-responsive"></li>
+      <li ><img src="http://res.cloudinary.com/epospiky/image/upload/v1529073991/restart.png" class="img-responsive"></li>
      </ul>
     </div>
     <div class="player1-view " >
-     <div class="timer" >
-      <p>Jane</p>
-      <h1>00:50:00</h1>
-      <span>Checks:5</span>
-      <span>Moves:9</span>
-     </div>
+
+      <h3 id="player1">Glory</h3>
+      <h1 id = "timer1">00:50:00</h1>
+      <span id="check1no">Checks:5</span>
+      <span id="move1no">Moves:9</span>
+    
      <div class="checks">
-      <button >Check</button >
-      <button >Checkmate</button>
+      <span id="check1">Check</span >
+      <span id="checkmate1">Checkmate</span>
      </div>
     </div>
    </div>
